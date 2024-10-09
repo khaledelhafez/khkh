@@ -6,22 +6,25 @@
 body {
       background-color: rgb(219, 230, 233);
 }
+h1 {
+    color: hwb(239 0% 0%); font-style: italic;
+}
 
 
 button {
            border-radius: 13px;   
-       font-size: large;     font-style:normal;   font-weight: 300;  
+       font-size: large;     font-style:italic;   
         background-color: hwb(239 31% 31%);   color: aliceblue; 
          width: 77;  height: 37px;  
 }
 
-h1 {
+/* h1 {
     color: rgb(17, 0, 250);   font-size: xx-large ;   font-style:italic;
-}
+} */
 
 h2 {
-    color: rgb(166, 255, 0);        font-style:italic;
-     text-shadow: 20cm;  font-size: xx-large;
+    color: rgb(166, 255, 0);  font-style:italic;
+    font-size: xx-large;
 }
 
 
@@ -31,11 +34,11 @@ a {
 
 
 p  {
-    font-size: xx-large ;  color: white; -webkit-text-stroke-width: 0.8px;
-}
-span {
+    font-size: xx-large ;  color: white; -webkit-text-stroke-width: 0.3px;
+} 
+ /* span {
     font-size: xx-large;
-}
+} */
 
 
 div {
@@ -49,14 +52,14 @@ select {
 
 }
 form {
-    background-color: lightgrey; border: 2px solid ; font-size: larger; width:;
+    background-color: rgb(180, 177, 177); border: 2px solid ; font-size: larger; width: 577px;
 }
 ol {
     background-color: gray; color:white;  width: 120;  border: 2px  solid  rgb(194, 128, 5); font-size: larger; 
 }
 
 input {
-      font-size: 16;
+      font-size: 16px;
 }  
 
 
